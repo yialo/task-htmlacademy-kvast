@@ -2,3 +2,26 @@
   color: white;
   background-color: black;
 }
+
+.page-footer__logo {
+  float: left;
+  margin-left: 40px;
+}
+
+.page-footer__navigation {
+  float: right;
+}
+
+.page-footer__prohibition {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.page-footer__social {
+  float: left;
+}
+
+.page-footer__creator {
+  float: right;
+}

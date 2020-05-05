@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <title>Кваст</title>
     <link rel="stylesheet" href="./styles/_common.css">
-    <link rel="stylesheet" href="./styles/nav-link.css">
+    <link rel="stylesheet" href="./styles/main-nav.css">
     <link rel="stylesheet" href="./styles/page-header.css">
     <link rel="stylesheet" href="./styles/new-goods.css">
     <link rel="stylesheet" href="./styles/features.css">
     <link rel="stylesheet" href="./styles/reviews.css">
     <link rel="stylesheet" href="./styles/goods.css">
     <link rel="stylesheet" href="./styles/order.css">
+    <link rel="stylesheet" href="./styles/social.css">
     <link rel="stylesheet" href="./styles/page-footer.css">
   </head>
   <body>
@@ -21,18 +22,18 @@
             <img class="logo__image" src="./img/logo.png" width="140" height="76" alt="Кваст">
           </a>
           <nav class="page-header__navigation">
-            <ul class="h_list page-header__list">
-              <li>
-                <a class="nav-link" href="#">История</a>
+            <ul class="h_list main-nav">
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">История</a>
               </li>
-              <li>
-                <a class="nav-link" href="#">Производство</a>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Производство</a>
               </li>
-              <li>
-                <a class="nav-link" href="#">Ассортимент</a>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Ассортимент</a>
               </li>
-              <li>
-                <a class="nav-link" href="#">Где купить</a>
+              <li class="main-nav__item">
+                <a class="main-nav__link" href="#">Где купить</a>
               </li>
             </ul>
           </nav>
@@ -44,7 +45,7 @@
       <div class="h_narrow-container">
         <h2 class="h_title new-goods__title">Новинки</h2>
         <div>
-          <h3>Вахтёр</h3>
+          <h3 class="h_title">Вахтёр</h3>
           <table>
             <tr>
               <td>Алк.</td>
@@ -63,7 +64,7 @@
           <b>150 Р.</b>
         </div>
         <div>
-          <h3>Романтик</h3>
+          <h3 class="h_title">Романтик</h3>
           <table>
             <tr>
               <td>Алк.</td>
@@ -86,25 +87,25 @@
     <section class="features">
       <ul class="h_list h_wide-container features__list">
         <li>
-          <h2>Варим сами</h2>
+          <h2 class="h_subtitle">Варим сами</h2>
           <p>Вот этими самыми руками. Экспериментируем и творим, что хотим.</p>
         </li>
         <li>
-          <h2>Своё, родное</h2>
+          <h2 class="h_subtitle">Своё, родное</h2>
           <p>Не заработка ради, а импортозамещения для. Поднимаем производство.</p>
         </li>
         <li>
-          <h2>Не экономим</h2>
+          <h2 class="h_subtitle">Не экономим</h2>
           <p>Человек это то, что он ест и пьёт. У нас только качественные ингредиенты.</p>
         </li>
       </ul>
     </section>
     <section class="history">
       <div class="h_narrow-container">
-        <h2>Немного истории</h2>
+        <h2 class="h_title">Немного истории</h2>
         <dl>
           <dt>
-            Происхождение кваса
+            <span class="h_subtitle">Происхождение кваса</span>
             <i>Источник: <a href="#" target="_blank">ru.wikipedia.org</a></i>
           </dt>
           <dd>
@@ -114,7 +115,7 @@
         </dl>
         <dl>
           <dt>
-            Классификация кваса
+            <span class="h_subtitle">Классификация кваса</span>
             <i>Источник: <a href="#" target="_blank">ru.wikipedia.org</a></i>
           </dt>
           <dd>
@@ -126,19 +127,17 @@
     </section>
     <section class="reviews">
       <div class="h_narrow-container">
-        <h2>
-          Пресса о нас
-        </h2>
+        <h2 class="h_title">Пресса о нас</h2>
         <blockquote>
           <p>Сегодня мы провели дегустацию чего-то действительно новенького — крафтового кваса. Да, да, вы не ослышались! Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!</p>
-          <cite>Газета столичный Стольник</cite>
+          <cite class="h_subtitle">Газета столичный Стольник</cite>
           <a class="h_button" href="#">Читать далее</a>
         </blockquote>
       </div>
     </section>
     <section class="goods">
       <div class="h_narrow-container">
-        <h2>Ассортимент</h2>
+        <h2 class="h_title">Ассортимент</h2>
         <table>
           <thead>
             <tr>
@@ -184,7 +183,7 @@
     </section>
     <section class="order">
       <div class="h_narrow-container">
-        <h2>Заказать</h2>
+        <h2 class="h_title">Заказать</h2>
         <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас. При заказе от 10 баррелей — скидка 10%.</p>
         <form action="https://echo.htmlacademy.ru/">
           <div>
@@ -224,26 +223,34 @@
     </section>
     <footer class="page-footer">
       <div class="h_wide-container">
-        <div>
-          <a href="#">
-            <img src="./img/logo.png" alt="Кваст">
+        <div class="h_clearfix page-footer__top">
+          <a class="logo page-footer__logo" href="#">
+            <img class="logo__image" src="./img/logo.png" width="140" height="76" alt="Кваст">
           </a>
-          <ul>
-            <li><a href="#">История</a></li>
-            <li><a href="#">Производство</a></li>
-            <li><a href="#">Ассортимент</a></li>
-            <li><a href="#">Где купить</a></li>
+          <ul class="h_list main-nav page-footer__navigation">
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">История</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Производство</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Ассортимент</a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="#">Где купить</a>
+            </li>
           </ul>
         </div>
-        <div>
-          <div>
-            <a href="#">Инстаграм</a>
-            <a href="#">Фейсбук</a>
-            <a href="#">Вконтакте</a>
+        <div class="h_clearfix page-footer__bottom">
+          <div class="social page-footer__social">
+            <a class="social__link" href="#">Инстаграм</a>
+            <a class="social__link" href="#">Фейсбук</a>
+            <a class="social__link" href="#">Вконтакте</a>
           </div>
-          <p>При перепечатке материалов ссылка на сайт обязательна!</p>
-          <div>
-            <img src="./img/htmlacademy.png" alt="HTML Academy"><b>Разработчик:</b> <a href="https://htmlacademy.ru/">HTML Academy</a>
+          <p class="page-footer__prohibition">При перепечатке материалов ссылка на сайт обязательна!</p>
+          <div class="page-footer__creator">
+            <img src="./img/htmlacademy.png" width="27" height="34" alt="HTML Academy"><b>Разработчик:</b> <a href="https://htmlacademy.ru/">HTML Academy</a>
           </div>
         </div>
       </div>

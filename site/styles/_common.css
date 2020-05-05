@@ -1,14 +1,10 @@
 body {
   margin: 0;
-  min-width: 1035px;
+  min-width: 1040px;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   color: #404040;
   background-color: white;
-}
-
-img {
-  display: block;
 }
 
 .h_button {
@@ -39,6 +35,14 @@ img {
   color: black;
 }
 
+.h_subtitle {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
 .h_narrow-container {
   margin-left: auto;
   margin-right: auto;
@@ -48,5 +52,5 @@ img {
 .h_wide-container {
   margin-left: auto;
   margin-right: auto;
-  width: 1015px;
+  width: 1020px;
 }

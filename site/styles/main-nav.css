@@ -1,13 +1,17 @@
-.nav-link {
+.main-nav {
+  width: 600px;
+}
+
+.main-nav__link {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
-.nav-link:hover {
+.main-nav__:hover {
   color: #ffcb78;
 }
 
-.nav-link:active {
+.main-nav__:active {
   color: rgba(255, 203, 120, 0.3);
 }
