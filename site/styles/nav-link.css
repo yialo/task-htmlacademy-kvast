@@ -1,0 +1,13 @@
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ffcb78;
+}
+
+.nav-link:active {
+  color: rgba(255, 203, 120, 0.3);
+}
