@@ -1,0 +1,20 @@
+{
+  "author": "Aleksei Arro <aleksey.arro@phystech.edu>",
+  "devDependencies": {
+    "live-server": "1.2.1"
+  },
+  "keywords": [
+    "html",
+    "css"
+  ],
+  "license": "ISC",
+  "name": "task-htmlacademy-kvast",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yialo/task-htmlacademy-kvast.git"
+  },
+  "scripts": {
+    "start": "live-server ./site/"
+  },
+  "version": "0.1.0"
+}
