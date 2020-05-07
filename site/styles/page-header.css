@@ -10,7 +10,6 @@
 
 .page-header__logo {
   float: left;
-  width: 140px;
 }
 
 .page-header__navigation {
@@ -29,5 +28,5 @@
 }
 
 .page-header__top {
-  margin-bottom: 116px;
+  margin-bottom: 120px;
 }
