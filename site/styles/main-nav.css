@@ -1,17 +1,33 @@
 .main-nav {
   width: 600px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  line-height: 1;
+}
+
+.main-nav__item {
+  float: left;
+  margin-right: 54px;
+  padding-top: 21px;
+  padding-bottom: 20px;
+}
+
+.main-nav__item:last-child {
+  margin-right: 0;
 }
 
 .main-nav__link {
+  font-weight: 700;
+  letter-spacing: 0.04px;
   text-decoration: none;
   text-transform: uppercase;
   color: white;
 }
 
-.main-nav__:hover {
+.main-nav__link:hover {
   color: #ffcb78;
 }
 
-.main-nav__:active {
+.main-nav__link:active {
   color: rgba(255, 203, 120, 0.3);
 }
