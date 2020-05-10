@@ -22,7 +22,7 @@
           <a class="logo page-header__logo" href="#">
             <img class="logo__image" src="./img/logo.png" width="140" height="76" alt="Кваст">
           </a>
-          <ul class="h_list h_clearfix main-nav page-header__navigation">
+          <ul class="h_clearfix h_list main-nav page-header__navigation">
             <li class="main-nav__item">
               <a class="main-nav__link" href="#">История</a>
             </li>
@@ -41,46 +41,54 @@
       </div>
     </header>
     <section class="new-goods">
-      <div class="h_narrow-container">
+      <div class="h_clearfix h_narrow-container">
         <h2 class="h_title new-goods__title">Новинки</h2>
-        <div>
-          <h3 class="h_title">Вахтёр</h3>
-          <table>
-            <tr>
-              <td>Алк.</td>
-              <td>&lt; 1%</td>
-            </tr>
-            <tr>
-              <td>Ккал</td>
-              <td>35</td>
-            </tr>
-          </table>
-          <p>Ржаной хлеб, Вода, Солод, Соль</p>
-          <img src="./img/bottle-left.jpg" alt="Вахтёр">
-          <p>Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
-          <a class="h_button" href="#">Подробнее</a>
-          <a class="h_button" href="#">Купить</a>
-          <b>150 Р.</b>
-        </div>
-        <div>
-          <h3 class="h_title">Романтик</h3>
-          <table>
-            <tr>
-              <td>Алк.</td>
-              <td>&lt; 0,5%</td>
-            </tr>
-            <tr>
-              <td>Ккал</td>
-              <td>27</td>
-            </tr>
-          </table>
-          <p>Ячменный хлеб, Вода, Солод, Апельсин</p>
-          <img src="./img/bottle-right.jpg" alt="Романтик">
-          <p>Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
-          <a class="h_button" href="#">Подробнее</a>
-          <a class="h_button" href="#">Купить</a>
-          <b>90 Р.</b>
-        </div>
+        <article class="new-goods__item">
+          <h3 class="h_title new-goods__caption">Вахтёр</h3>
+          <div class="h_clearfix new-goods__content">
+            <div class="new-goods__composition">
+              <table class="new-goods__percentage-content">
+                <tr>
+                  <th class="new-goods__cell" scope="row">Алк.</th>
+                  <td class="new-goods__cell">&lt; 1%</td>
+                </tr>
+                <tr>
+                  <th class="new-goods__cell" scope="row">Ккал</th>
+                  <td class="new-goods__cell">35</td>
+                </tr>
+              </table>
+              <p class="new-goods__compound">Ржаной хлеб, Вода, Солод, Соль</p>
+            </div>
+            <img class="new-goods__image" src="./img/bottle-left.jpg" alt="Вахтёр">
+            <p class="new-goods__description">Терпкий и мощный, вкус этого кваса взбодрит после тяжёлого дня и придаст сил для вечерних приключений!</p>
+            <a class="h_button new-goods__button new-goods__button--about" href="#">Подробнее</a>
+            <a class="h_button new-goods__button new-goods__button--buy" href="#">Купить</a>
+            <b class="new-goods__price">150 Р.</b>
+          </div>
+        </article>
+        <article class="new-goods__item">
+          <h3 class="h_title new-goods__caption">Романтик</h3>
+          <div class="new-goods__content">
+            <div class="new-goods__composition">
+              <table class="new-goods__percentage-content">
+                <tr>
+                  <th class="new-goods__cell" scope="row">Алк.</th>
+                  <td  class="new-goods__cell">&lt; 0,5%</td>
+                </tr>
+                <tr>
+                  <th class="new-goods__cell" scope="row">Ккал</th>
+                  <td  class="new-goods__cell">27</td>
+                </tr>
+              </table>
+              <p class="new-goods__compound">Ячменный хлеб, Вода, Солод, Апельсин</p>
+            </div>
+            <img class="new-goods__image" src="./img/bottle-right.jpg" alt="Романтик">
+            <p class="new-goods__description">Лёгкий и освежающий напиток поможет сохранять отличное настроение в течение всего дня.</p>
+            <a class="h_button new-goods__button new-goods__button--about" href="#">Подробнее</a>
+            <a class="h_button new-goods__button new-goods__button--buy" href="#">Купить</a>
+            <b class="new-goods__price">90 Р.</b>
+          </div>
+        </article>
       </div>
     </section>
     <section class="features">

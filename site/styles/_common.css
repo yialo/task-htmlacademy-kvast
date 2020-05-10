@@ -8,11 +8,12 @@ body {
 }
 
 .h_button {
-  padding: 16px 24px;
+  padding: 15px 21px;
   border-width: 2px;
   border-style: solid;
   text-decoration: none;
   text-transform: uppercase;
+  background-color: transparent;
 }
 
 .h_clearfix::after {
