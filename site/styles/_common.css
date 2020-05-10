@@ -11,9 +11,11 @@ body {
   padding: 15px 21px;
   border-width: 2px;
   border-style: solid;
+  font-weight: 700;
   text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
+  transition: all 0.1s;
 }
 
 .h_clearfix::after {

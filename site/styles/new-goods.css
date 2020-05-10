@@ -83,12 +83,30 @@
 
 .new-goods__button--about {
   margin-right: 7px;
+  color: #844802;
+}
+
+.new-goods__button--about:hover {
+  border-color: #6a3900;
+  color: #6a3900;
+}
+
+.new-goods__button--about:active {
+  opacity: 0.3;
 }
 
 .new-goods__button--buy {
   margin-right: 25px;
   color: white;
   background-color: #844802;
+}
+
+.new-goods__button--buy:hover {
+  background-color: #6a3900;
+}
+
+.new-goods__button--buy:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .new-goods__price {
