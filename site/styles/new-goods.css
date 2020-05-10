@@ -1,6 +1,6 @@
 .new-goods {
   padding-top: 89px;
-  padding-bottom: 93px;
+  padding-bottom: 110px;
   line-height: 1;
 }
 
@@ -97,6 +97,7 @@
 
 .new-goods__button--buy {
   margin-right: 25px;
+  padding-right: 21px;
   color: white;
   background-color: #844802;
 }
