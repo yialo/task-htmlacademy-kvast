@@ -1,0 +1,10 @@
+.goods {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  line-height: 30px;
+}
+
+.goods__title {
+  margin-top: 0;
+  line-height: 60px;
+}

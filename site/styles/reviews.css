@@ -1,3 +1,60 @@
 .reviews {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  line-height: 1;
   background-color: #ede5d8;
+}
+
+.reviews__title {
+  margin-top: 0;
+  margin-bottom: 85px;
+}
+
+.reviews__excerpt {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.reviews__excerpt::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: -105px;
+  width: 41px;
+  height: 31px;
+  background-image: url("../img/quotes.png");
+}
+
+.reviews__text {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 35px;
+  width: 700px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+
+.reviews__source {
+  float: right;
+  line-height: 30px;
+  margin-top: 10px;
+}
+
+.reviews__link {
+  clear: left;
+  float: left;
+  color: #a5a097;
+}
+
+.reviews__link:hover {
+  color: white;
+  border-color: transparent;
+  background-color: #a5a097;
+}
+
+.reviews__link:active {
+  background-color: #8f8a81;
 }
