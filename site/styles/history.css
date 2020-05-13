@@ -1,0 +1,58 @@
+.history {
+  padding-top: 80px;
+  padding-bottom: 47px;
+  line-height: 1;
+}
+
+.history__title {
+  margin-top: 0;
+  margin-bottom: 65px;
+  line-height: 60px;
+}
+
+.history__entry {
+  margin-top: 0;
+  margin-bottom: 65px;
+}
+
+.history__entry:last-of-type {
+  margin-bottom: 0;
+}
+
+.history__headline {
+  margin-bottom: 25px;
+}
+
+.history__caption {
+  float: left;
+}
+
+.history__source {
+  float: right;
+  margin-top: 3px;
+  color: #444444;
+}
+
+.history__link {
+  color: #834700;
+}
+
+.history__details {
+  margin-left: 0;
+}
+
+.history__image {
+  float: right;
+  margin-top: 10px;
+  width: 200px;
+  height: 101px;
+}
+
+.history__description {
+  float: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 488px;
+  line-height: 30px;
+  letter-spacing: 0.06px;
+}
