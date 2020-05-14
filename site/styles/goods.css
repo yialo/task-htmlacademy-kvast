@@ -8,3 +8,28 @@
   margin-top: 0;
   line-height: 60px;
 }
+
+.goods__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.goods__head-cell {
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999999;
+}
+
+.goods__body-cell:first-child {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.goods__new {
+  font-weight: 400;
+  font-size: 8px;
+  color: white;
+  background-color: black;
+}

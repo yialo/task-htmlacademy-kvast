@@ -6,13 +6,13 @@
 
 .history__title {
   margin-top: 0;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
   line-height: 60px;
 }
 
 .history__entry {
   margin-top: 0;
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .history__entry:last-of-type {
@@ -20,7 +20,7 @@
 }
 
 .history__headline {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .history__caption {
@@ -29,7 +29,7 @@
 
 .history__source {
   float: right;
-  margin-top: 3px;
+  margin-top: 7px;
   color: #444444;
 }
 

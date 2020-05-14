@@ -1,7 +1,6 @@
 .features {
   padding-top: 80px;
   padding-bottom: 90px;
-  line-height: 30px;
   background-color: #ffcb78;
 }
 
@@ -51,4 +50,5 @@
 .features__defails {
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 30px;
 }

@@ -1,5 +1,5 @@
 .reviews {
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 90px;
   line-height: 1;
   background-color: #ede5d8;
@@ -7,7 +7,7 @@
 
 .reviews__title {
   margin-top: 0;
-  margin-bottom: 85px;
+  margin-bottom: 74px;
 }
 
 .reviews__excerpt {
@@ -39,14 +39,14 @@
 
 .reviews__source {
   float: right;
-  line-height: 30px;
   margin-top: 10px;
 }
 
 .reviews__link {
   clear: left;
   float: left;
-  color: #a5a097;
+  padding-right: 21px;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .reviews__link:hover {
