@@ -20,10 +20,13 @@
 }
 
 .order__field {
+  float: left;
   margin-bottom: 24px;
 }
 
 
 .order__button {
-
+  clear: left;
+  display: block;
+  cursor: pointer;
 }
