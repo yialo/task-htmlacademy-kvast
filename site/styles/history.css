@@ -50,9 +50,6 @@
 
 .history__description {
   float: left;
-  margin-top: 0;
-  margin-bottom: 0;
   width: 488px;
-  line-height: 30px;
   letter-spacing: 0.06px;
 }
