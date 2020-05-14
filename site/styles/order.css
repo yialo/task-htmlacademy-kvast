@@ -1,6 +1,14 @@
 .order {
-  padding-top: 47px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   line-height: 1;
   background-color: #ffcb78;
+}
+
+.order__title {
+
+}
+
+.order__lead {
+
 }
