@@ -1,6 +1,6 @@
 .page-footer {
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   color: white;
   background-color: black;
 }
@@ -40,8 +40,13 @@
   margin-left: -1px;
 }
 
-.page-footer__social-link:not(:last-child) {
-  border-right-color: transparent;
+.page-footer__social-link:hover {
+  position: relative;
+  border-color: rgba(255, 203, 120, 0.3);
+}
+
+.page-footer__social-link:active {
+  opacity: 0.5;
 }
 
 .page-footer__social-link--instagram {
