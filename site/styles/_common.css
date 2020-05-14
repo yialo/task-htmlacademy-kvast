@@ -18,6 +18,21 @@ body {
   transition: all 0.1s;
 }
 
+.h_button--brown {
+  border-color: #844802;
+  color: white;
+  background-color: #844802;
+}
+
+.h_button--brown:hover {
+  border-color: #6a3900;
+  background-color: #6a3900;
+}
+
+.h_button--brown:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .h_clearfix::after {
   content: "";
   clear: both;

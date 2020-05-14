@@ -72,38 +72,26 @@
   letter-spacing: 0.12px;
 }
 
-.new-goods__button {
+.new-goods__about-button {
   float: left;
-  border-color: #844802;
-}
-
-.new-goods__button--about {
   margin-right: 7px;
+  border-color: #844802;
   color: #844802;
 }
 
-.new-goods__button--about:hover {
+.new-goods__about-button:hover {
   border-color: #6a3900;
   color: #6a3900;
 }
 
-.new-goods__button--about:active {
+.new-goods__about-button:active {
   opacity: 0.3;
 }
 
-.new-goods__button--buy {
+.new-goods__buy-button {
+  float: left;
   margin-right: 25px;
   padding-right: 21px;
-  color: white;
-  background-color: #844802;
-}
-
-.new-goods__button--buy:hover {
-  background-color: #6a3900;
-}
-
-.new-goods__button--buy:active {
-  color: rgba(255, 255, 255, 0.3);
 }
 
 .new-goods__price {

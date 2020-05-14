@@ -6,9 +6,24 @@
 }
 
 .order__title {
-
+  margin-bottom: 73px;
 }
 
 .order__lead {
+  margin-bottom: 60px;
+  width: 650px;
+  letter-spacing: 0.08px;
+}
+
+.order__form {
+  width: 630px;
+}
+
+.order__field {
+  margin-bottom: 24px;
+}
+
+
+.order__button {
 
 }
