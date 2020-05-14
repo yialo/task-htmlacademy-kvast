@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  min-width: 1015px;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #404040;
+  background-color: white;
+}
+
+.h_button {
+  padding: 13px 20px;
+  border-width: 2px;
+  border-style: solid;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: transparent;
+  transition: all 0.1s;
+}
+
+.h_button--brown {
+  border-color: #844802;
+  color: white;
+  background-color: #844802;
+}
+
+.h_button--brown:hover {
+  border-color: #6a3900;
+  background-color: #6a3900;
+}
+
+.h_button--brown:active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.h_clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.h_list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.h_title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.h_subtitle {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.h_paragraph {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 30px;
+}
+
+.h_narrow-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+.h_wide-container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1015px;
+}

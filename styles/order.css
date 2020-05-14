@@ -1,0 +1,59 @@
+.order {
+  padding-top: 80px;
+  padding-bottom: 110px;
+  line-height: 1;
+  background-color: #ffcb78;
+}
+
+.order__title {
+  margin-bottom: 73px;
+}
+
+.order__lead {
+  margin-bottom: 71px;
+  width: 660px;
+  letter-spacing: 0.08px;
+}
+
+.order__form {
+  width: 630px;
+}
+
+.order__field {
+  margin-bottom: 25px;
+}
+
+.order__field--content_area {
+  margin-bottom: 46px;
+}
+
+.order__field--content_checkbox {
+  margin-bottom: 10px;
+}
+
+.order__field--content_select {
+  margin-bottom: 35px;
+}
+
+.order__field--position_left {
+  float: left;
+}
+
+.order__field--position_right {
+  float: right;
+}
+
+.order__field--size_half {
+  margin-bottom: 0;
+  width: 290px;
+}
+
+.order__group {
+  margin-bottom: 25px;
+}
+
+.order__button {
+  margin-top: 34px;
+  letter-spacing: 1.75px;
+  cursor: pointer;
+}

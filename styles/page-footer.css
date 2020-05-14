@@ -1,0 +1,114 @@
+.page-footer {
+  padding-top: 60px;
+  padding-bottom: 70px;
+  color: white;
+  background-color: black;
+}
+
+.page-footer__top {
+  margin-bottom: 47px;
+}
+
+.page-footer__logo {
+  float: left;
+  margin-left: 38px;
+}
+
+.page-footer__navigation {
+  float: right;
+  margin-top: 7px;
+  margin-right: 107px;
+}
+
+.page-footer__social {
+  float: left;
+  margin-right: 92px;
+}
+
+.page-footer__social-link {
+  float: left;
+  font-size: 0;
+  width: 70px;
+  height: 66px;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+  background-color: #1b1b1b;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 1px) center;
+}
+
+.page-footer__social-link:not(:first-child) {
+  margin-left: -1px;
+}
+
+.page-footer__social-link:hover {
+  position: relative;
+  border-color: rgba(255, 203, 120, 0.3);
+}
+
+.page-footer__social-link:active {
+  opacity: 0.5;
+}
+
+.page-footer__social-link--instagram {
+  background-image: url("../img/icon-insta.png");
+  background-size: 14px 14px;
+}
+
+.page-footer__social-link--facebook {
+  background-image: url("../img/icon-fb.png");
+  background-size: 8px 16px;
+}
+
+.page-footer__social-link--vk {
+  background-image: url("../img/icon-vk.png");
+  background-size: 20px 11px;
+}
+
+.page-footer__prohibition {
+  float: left;
+  margin-top: 12px;
+  margin-bottom: 0;
+  width: 203px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  color: #989898;
+}
+
+.page-footer__creator {
+  float: right;
+  width: 307px;
+}
+
+.page-footer__creator-picture {
+  float: left;
+  width: 70px;
+  height: 66px;
+  border: 1px solid rgba(255, 203, 120, 0.1);
+  background-color: #1b1b1b;
+}
+
+.page-footer__creator-logo {
+  margin-top: 16px;
+  margin-left: 21px;
+  width: 27px;
+  height: 34px;
+}
+
+.page-footer__creator-description {
+  float: right;
+  margin-top: 25px;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #989898;
+}
+
+.page-footer__legend {
+  font-weight: 700;
+}
+
+.page-footer__link {
+  text-decoration: none;
+  color: inherit;
+}

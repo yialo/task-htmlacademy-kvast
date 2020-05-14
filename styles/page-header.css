@@ -1,0 +1,32 @@
+.page-header {
+  padding-top: 60px;
+  padding-bottom: 155px;
+  color: white;
+  background-image: url("../img/wheat-back.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-color: #5e3209;
+}
+
+.page-header__logo {
+  float: left;
+}
+
+.page-header__navigation {
+  float: right;
+  margin-top: 10px;
+}
+
+.page-header__slogan {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 1;
+  text-align: center;
+}
+
+.page-header__top {
+  margin-bottom: 119px;
+}
