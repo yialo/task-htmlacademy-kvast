@@ -1,6 +1,7 @@
 {
   "author": "Aleksei Arro <aleksey.arro@phystech.edu>",
   "devDependencies": {
+    "gh-pages": "2.2.0",
     "live-server": "1.2.1"
   },
   "keywords": [
@@ -14,6 +15,7 @@
     "url": "git+https://github.com/yialo/task-htmlacademy-kvast.git"
   },
   "scripts": {
+    "deploy": "gh-pages -d ./site/",
     "start": "live-server ./site/"
   },
   "version": "0.1.0"
