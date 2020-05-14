@@ -11,7 +11,7 @@
 
 .order__lead {
   margin-bottom: 71px;
-  width: 650px;
+  width: 660px;
   letter-spacing: 0.08px;
 }
 
@@ -23,13 +23,16 @@
   margin-bottom: 25px;
 }
 
-.order__field:last-of-type {
-  margin-bottom: 0;
+.order__field--content_area {
+  margin-bottom: 46px;
 }
 
-.order__field--size_half {
-  margin-bottom: 0;
-  width: 290px;
+.order__field--content_checkbox {
+  margin-bottom: 10px;
+}
+
+.order__field--content_select {
+  margin-bottom: 35px;
 }
 
 .order__field--position_left {
@@ -40,12 +43,9 @@
   float: right;
 }
 
-.order__field--shift_smaller {
-  margin-bottom: 24px;
-}
-
-.order__field--shift_larger {
-  margin-bottom: 28px;
+.order__field--size_half {
+  margin-bottom: 0;
+  width: 290px;
 }
 
 .order__group {
