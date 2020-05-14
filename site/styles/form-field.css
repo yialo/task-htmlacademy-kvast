@@ -1,3 +1,7 @@
+.form-field--checkbox {
+  padding-top: 17px;
+}
+
 .form-field__legend {
   display: block;
   margin-bottom: 10px;
@@ -37,4 +41,52 @@
 
 .form-field__line-break {
   display: none;
+}
+
+.form-field__checkbox {
+  position: absolute;
+  margin: -1px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border-style: none;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+}
+
+.form-field--checkbox .form-field__legend {
+  position: relative;
+  padding-left: 54px;
+}
+
+.form-field--checkbox .form-field__legend::before,
+.form-field--checkbox .form-field__legend::after {
+  content: "";
+  position: absolute;
+}
+
+.form-field--checkbox .form-field__legend::before {
+  top: -17px;
+  left: 0;
+  width: 36px;
+  height: 36px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form-field--checkbox .form-field__legend::after {
+  top: -6px;
+  left: 9px;
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+  width: 16px;
+  height: 10px;
+  border: 2px solid transparent;
+  transition: border-color 0.1s;
+}
+
+.form-field--checkbox .form-field__checkbox:checked + .form-field__legend::after {
+  border-bottom-color: #231f20;
+  border-left-color: #231f20;
 }

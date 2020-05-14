@@ -1,6 +1,6 @@
 .order {
   padding-top: 80px;
-  padding-bottom: 80px;
+  padding-bottom: 110px;
   line-height: 1;
   background-color: #ffcb78;
 }
@@ -23,6 +23,10 @@
   margin-bottom: 25px;
 }
 
+.order__field:last-of-type {
+  margin-bottom: 0;
+}
+
 .order__field--size_half {
   margin-bottom: 0;
   width: 290px;
@@ -40,10 +44,16 @@
   margin-bottom: 24px;
 }
 
+.order__field--shift_larger {
+  margin-bottom: 28px;
+}
+
 .order__group {
   margin-bottom: 25px;
 }
 
 .order__button {
+  margin-top: 34px;
+  letter-spacing: 1.75px;
   cursor: pointer;
 }

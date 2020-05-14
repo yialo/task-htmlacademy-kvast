@@ -8,10 +8,11 @@ body {
 }
 
 .h_button {
-  padding: 15px 20px;
+  padding: 13px 20px;
   border-width: 2px;
   border-style: solid;
   font-weight: 700;
+  line-height: 20px;
   text-decoration: none;
   text-transform: uppercase;
   background-color: transparent;
