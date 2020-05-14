@@ -5,13 +5,19 @@
   background-color: black;
 }
 
+.page-footer__top {
+  margin-bottom: 30px;
+}
+
 .page-footer__logo {
   float: left;
-  margin-left: 40px;
+  margin-left: 38px;
 }
 
 .page-footer__navigation {
   float: right;
+  margin-top: 7px;
+  margin-right: 107px;
 }
 
 .page-footer__prohibition {
