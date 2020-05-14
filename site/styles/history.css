@@ -35,6 +35,14 @@
   color: #834700;
 }
 
+.history__link:hover {
+  color: #6a3900;
+}
+
+.history__link:active {
+  color: #cab7a2;
+}
+
 .history__details {
   margin-left: 0;
 }
