@@ -10,7 +10,7 @@
 }
 
 .order__lead {
-  margin-bottom: 60px;
+  margin-bottom: 71px;
   width: 650px;
   letter-spacing: 0.08px;
 }
@@ -20,13 +20,30 @@
 }
 
 .order__field {
+  margin-bottom: 25px;
+}
+
+.order__field--size_half {
+  margin-bottom: 0;
+  width: 290px;
+}
+
+.order__field--position_left {
   float: left;
+}
+
+.order__field--position_right {
+  float: right;
+}
+
+.order__field--shift_smaller {
   margin-bottom: 24px;
 }
 
+.order__group {
+  margin-bottom: 25px;
+}
 
 .order__button {
-  clear: left;
-  display: block;
   cursor: pointer;
 }

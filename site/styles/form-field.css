@@ -1,0 +1,40 @@
+.form-field__legend {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.form-field--select .form-field__legend {
+  margin-bottom: 9px;
+}
+
+.form-field__input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+  border-style: none;
+  padding: 15px 20px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.form-field--area .form-field__input {
+  height: 121px;
+  resize: none;
+}
+
+.form-field--select .form-field__input {
+  padding-bottom: 18px;
+}
+
+.form-field__line-break {
+  display: none;
+}
