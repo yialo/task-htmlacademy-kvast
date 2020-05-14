@@ -1,3 +1,48 @@
 .features {
+  padding-top: 80px;
+  padding-bottom: 90px;
   background-color: #ffcb78;
+}
+
+.features__item {
+  float: left;
+  border-right: 1px solid #e5b66c;
+  padding-top: 100px;
+  background-repeat: no-repeat;
+}
+
+.features__item:first-child {
+  padding-left: 0;
+}
+
+.features__item:last-child {
+  border-right-style: none;
+  padding-right: 0;
+}
+
+.features__item--ourselves {
+  width: 210px;
+  padding-right: 96px;
+  background-image: url("../img/icon-brew.png");
+  background-position-x: 1px;
+}
+
+.features__item--native {
+  width: 210px;
+  padding-left: 94px;
+  padding-right: 96px;
+  background-image: url("../img/icon-matreshka.png");
+  background-position-x: 95px;
+}
+
+.features__item--generous {
+  width: 210px;
+  padding-left: 94px;
+  background-image: url("../img/icon-thumbsup.png");
+  background-position-x: 95px;
+}
+
+.features__caption {
+  margin-top: 0;
+  margin-bottom: 20px;
 }

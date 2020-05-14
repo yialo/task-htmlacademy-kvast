@@ -1,6 +1,6 @@
 .page-header {
-  padding-top: 56px;
-  padding-bottom: 150px;
+  padding-top: 60px;
+  padding-bottom: 155px;
   color: white;
   background-image: url("../img/wheat-back.jpg");
   background-position: bottom;
@@ -8,18 +8,13 @@
   background-color: #5e3209;
 }
 
-.page-header__list {
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
 .page-header__logo {
   float: left;
-  width: 140px;
 }
 
 .page-header__navigation {
   float: right;
+  margin-top: 10px;
 }
 
 .page-header__slogan {
@@ -28,9 +23,10 @@
   width: 100%;
   font-weight: 700;
   font-size: 70px;
+  line-height: 1;
   text-align: center;
 }
 
 .page-header__top {
-  margin-bottom: 120px;
+  margin-bottom: 119px;
 }
