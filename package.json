@@ -1,22 +1,16 @@
 {
-  "author": "Aleksei Arro <aleksey.arro@phystech.edu>",
-  "devDependencies": {
-    "gh-pages": "2.2.0",
-    "live-server": "1.2.1"
-  },
-  "keywords": [
-    "html",
-    "css"
-  ],
-  "license": "ISC",
-  "name": "task-htmlacademy-kvast",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yialo/task-htmlacademy-kvast.git"
-  },
+  "name": "task_htmlacademy-kvast",
+  "private": true,
   "scripts": {
     "deploy": "gh-pages -d ./site/",
     "start": "live-server ./site/"
   },
-  "version": "0.1.0"
+  "devDependencies": {
+    "gh-pages": "2.2.0",
+    "live-server": "1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yialo/task-htmlacademy-kvast.git"
+  }
 }
